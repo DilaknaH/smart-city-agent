@@ -1,0 +1,35 @@
+import json
+import os
+
+baseline = {
+    "city_name": "SimCity Alpha",
+    "population": 500000,
+    "traffic": {
+        "avg_congestion_percent": 68,
+        "public_transport_usage_percent": 22,
+        "avg_commute_time_minutes": 47,
+        "private_vehicle_count": 180000
+    },
+    "energy": {
+        "total_consumption_gwh_per_day": 12.4,
+        "renewable_percent": 18,
+        "fossil_fuel_percent": 82,
+        "avg_household_bill_usd": 85
+    },
+    "pollution": {
+        "air_quality_index": 142,
+        "co2_emissions_tons_per_day": 8500,
+        "green_cover_percent": 14
+    },
+    "economy": {
+        "avg_income_usd": 28000,
+        "unemployment_percent": 7.2,
+        "public_transport_fare_usd": 2.5
+    }
+}
+
+os.makedirs("data", exist_ok=True)
+with open("data/city_baseline.json", "w") as f:
+    json.dump(baseline, f, indent=2)
+
+print("✅ Baseline city data generated.")
