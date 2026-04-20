@@ -34,4 +34,5 @@ User (Gradio UI) → CityMind Agent (LangChain + LangGraph ReAct)
 
 ## Author
 Dilakna Godagamage
-Undergraduate | KDU
+
+Undergraduate | BSc. Applied Data Science and Communication
