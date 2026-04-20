@@ -33,6 +33,5 @@ User (Gradio UI) → CityMind Agent (LangChain + LangGraph ReAct)
 ```
 
 ## Author
- Dilakna Godagamage
-
-Undergradute| KDU
+Dilakna Godagamage
+Undergraduate | KDU
