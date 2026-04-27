@@ -2,8 +2,12 @@
 
 An autonomous AI agent that simulates how urban policy decisions affect a city's traffic, energy, and environmental systems.
 
-## Live Demo
+## Live App
 👉 [Try it on Hugging Face Spaces](https://huggingface.co/spaces/DilaknaGodagamage/smart-city-agent)
+
+### Youtube Demo
+👉 [Watch](https://youtube.com/shorts/KGSLcghpsos?si=4fejBws8Ta_o3Nyg)
+
 
 ## Features
 - **AI Chat Agent** — Ask questions about city status and policy impacts
